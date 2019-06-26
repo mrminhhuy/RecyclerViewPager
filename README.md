@@ -2,7 +2,7 @@
 # RecyclerViewPager
 A ViewPager implemention base on RecyclerView. Support fling operation like gallary.
 
-android.support.v4.view.ViewPager的完美替代品
+android.support.v4.view.ViewPager
 
 ## Features:
 1. Base on RecyclerView.
@@ -13,18 +13,9 @@ android.support.v4.view.ViewPager的完美替代品
 6. Infinite-Loop-ViewPager
 7. Support TabLayout
 
-## 特性:
-1. 扩展自RecyclerView.
-2. 可自定义fling滑动速率.
-3. 可自定义翻页触发条件.
-4. 支持垂直ViewPager.
-5. 支持Fragment (api 12+)
-6. 支持无限循环
-7. 支持和TabLayout配合使用
-
-![RecyclerViewPager](https://github.com/lsjwzh/RecyclerViewPager/blob/master/vertical.gif)
-![RecyclerViewPager](https://github.com/lsjwzh/RecyclerViewPager/blob/master/horizontal.gif)
-![RecyclerViewPager](https://github.com/lsjwzh/RecyclerViewPager/blob/master/fragment.gif)
+![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/vertical.gif)
+![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/horizontal.gif)
+![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/fragment.gif)
 
 ## Usage
 
@@ -42,7 +33,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.github.lsjwzh.RecyclerViewPager:lib:v1.2.0@aar'
+    implementation 'com.github.huyvm.RecyclerViewPager:lib:v1.0.3'
     ...
 }
 ```
@@ -90,7 +81,7 @@ mRecyclerView.setAdapter(new RecyclerView.Adpater<X>());
 ```gradle
 dependencies {
     ...
-    compile 'com.github.lsjwzh.RecyclerViewPager:tablayoutsupport:v1.1.2@aar'
+    implementation 'com.github.huyvm.RecyclerViewPager:tablayoutsupport:lib:v1.0.3'
     ...
 }
 ```
