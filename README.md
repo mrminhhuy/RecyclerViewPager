@@ -13,9 +13,9 @@ android.support.v4.view.ViewPager
 6. Infinite-Loop-ViewPager
 7. Support TabLayout
 
-![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/vertical.gif)
-![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/horizontal.gif)
-![RecyclerViewPager](https://github.com/huyvm/RecyclerViewPager/blob/master/fragment.gif)
+![RecyclerViewPager](https://github.com/codevoler/RecyclerViewPager/blob/master/vertical.gif)
+![RecyclerViewPager](https://github.com/codevoler/RecyclerViewPager/blob/master/horizontal.gif)
+![RecyclerViewPager](https://github.com/codevoler/RecyclerViewPager/blob/master/fragment.gif)
 
 ## Usage
 
@@ -33,7 +33,7 @@ repositories {
 
 dependencies {
     ...
-    implementation 'com.github.huyvm.RecyclerViewPager:lib:v1.0.3'
+    implementation 'com.github.codevoler.RecyclerViewPager:lib:v1.0.3'
     ...
 }
 ```
@@ -81,7 +81,7 @@ mRecyclerView.setAdapter(new RecyclerView.Adpater<X>());
 ```gradle
 dependencies {
     ...
-    implementation 'com.github.huyvm.RecyclerViewPager:tablayoutsupport:lib:v1.0.3'
+    implementation 'com.github.codevoler.RecyclerViewPager:tablayoutsupport:lib:v1.0.3'
     ...
 }
 ```
